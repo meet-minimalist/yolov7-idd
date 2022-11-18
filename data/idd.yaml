@@ -1,0 +1,14 @@
+# Indian Driving Dataset
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+path: F:/LEARN/Hackathon/Task_2_object_detection/data/indian_driving_data
+train: F:/LEARN/Hackathon/Task_2_object_detection/data/indian_driving_data/training_data/images/valid
+val: F:/LEARN/Hackathon/Task_2_object_detection/data/indian_driving_data/training_data/images/valid
+test: F:/LEARN/Hackathon/Task_2_object_detection/data/indian_driving_data/training_data/images/valid
+
+# number of classes
+nc: 11
+
+# class names
+names: ["motorcycle", "car", "truck", "person", "animal", "rider", "vehicle_fallback", "bus", "bicycle", "caravan", "trailer"]
+
